@@ -53,6 +53,55 @@ body {
     margin: 20px;
 }
 
+.contact-us {
+    text-align: center;
+    color: white;
+    background-image: url(../assets/backgrounds/engine.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-us h3 {
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#message {
+    margin-left: 17%;
+    width: 70%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+
+input[type=text]{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    
+}
+
+input[type=email] {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button {
+    margin-left: 18%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+
 
 
 
