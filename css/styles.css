@@ -1,0 +1,8 @@
+body {
+    font-family: 'Playfair Display', serif;
+
+}
+
+.home {
+    background-image: url(../assets/backgrounds/home_image.jpg);
+}
