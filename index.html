@@ -7,9 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-          <link href="css/styles.css" rel="stylesheet" type="text/css">
-          <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-          <script src="js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <title>Delani Studio.</title>
 </head>
 <body>
@@ -39,7 +39,13 @@
         <div class="what-we-do" id="what-we-do">
             <h3>WHAT WE DO</h3>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" id="design">
+                    <div id="design-text">
+                        <h3>DESIGN</h3>
+                        <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                        <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+
+                    </div>
                     <img src="assets/services_icons/design_icon.png" alt="Design Icon">
                     <p>DESIGN.</p>
                 </div>
@@ -59,40 +65,44 @@
         <div class="portfolio">
             <h3>PORTFOLIO</h3>
             <div class="row" id="portfolio-rows">
-                <div class="col-md-3">
-                    <img src="assets/portfolio/black.jpg" alt="">
-
+                <!--<div class="col-md-3" id="black">
+                    <p id="overlay" class="text hide">Black Studio</p>
+                </div>-->
+                <div class="col-md-3" id="black">  
+                        <img src="assets/portfolio/black.jpg" alt="Black Studio">
+                        <p id="overlay" class="text">Black Studio</p>  
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/portfolio/ontario.jpg" alt="">
-
+                <div class="col-md-3" id="ontario">
+                    <img src="assets/portfolio/ontario.jpg" alt="Ontario Security">
+                    <p id="overlay1" class="text">Ontario Security</p>  
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/portfolio/pyramids.jpg" alt="">
-
+                <div class="col-md-3" id="pyramids">
+                    <img src="assets/portfolio/pyramids.jpg" alt="Pyramids">
+                    <p id="overlay2" class="text">Pyramids</p>
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/portfolio/jim.jpg" alt="">
-
+                <div class="col-md-3" id="jim">
+                    <img src="assets/portfolio/jim.jpg" alt="Jim Carry">
+                    <p id="overlay3" class="text">Jim Carry</p>
                 </div>
 
             </div>
             <div class="row" id="portfolio-rows">
-                <div class="col-md-3">
-                    <img src="assets/portfolio/nice-day.jpg" alt="">
+                <div class="col-md-3" id="nice">
+                    <img src="assets/portfolio/nice-day.jpg" alt="Have a Nice Day">
+                    <p id="overlay4" class="text">Have a Nice Day</p>
+                </div>
+                <div class="col-md-3" id="calculator">
+                    <img src="assets/portfolio/calculator.jpg" alt="Calculator">
+                    <p id="overlay5" class="text">Calculator</p>
 
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/portfolio/calculator.jpg" alt="">
-
+                <div class="col-md-3" id="burned">
+                    <img src="assets/portfolio/burned.jpg" alt="Burned">
+                    <p id="overlay6" class="text">Burned</p>
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/portfolio/burned.jpg" alt="">
-
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/portfolio/giraffe.jpg" alt="">
-
+                <div class="col-md-3" id="giraffe">
+                    <img src="assets/portfolio/giraffe.jpg" alt="Giraffe Restaurant">
+                    <p id="overlay7" class="text">Giraffe Restaurant</p>
                 </div>
 
             </div>
