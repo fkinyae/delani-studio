@@ -1,17 +1,36 @@
 $(document).ready(function(){
-    
-    $("div#design-text").click(function(){        
-        $("div#design-text").toggle();
-    });
-    $("div#design-text").click(function(){        
-        $("div#design-text").toggle();
-    });
-    $("div#design-text").click(function(){        
-        $("div#design-text").toggle();
-    });
 
+    //Toggle Item Icons With descriptions/.
+    $('div#design').click(function(){
+        $('div#design-image').slideUp();
+        $('div#design-text').slideDown();
 
+    });
+        $('div#design').click(function(){
+        $('div#design-text').toggle('slow').hide();
+        $('div#design-image').show();
 
+    });
+        
+        $('div#development').click(function(){
+            $('div#dev-image').slideUp();
+            $('div#dev-text').slideDown();
+        });
+            $('div#development').click(function(){
+            $('div#dev-text').toggle('slow').hide();
+            $('div#dev-image').show();
+        });
+
+        $('div#product').click(function(){
+            $('div#product-image').slideUp();
+            $('div#product-text').slideDown();
+        });
+            $('div#product').click(function(){
+            $('div#product-text').toggle('slow').hide();
+            $('div#product-image').show();
+        });
+
+       
     //Hovering Images On Portfolio Section.
     $("#black").mouseover(function(){$("#overlay").show();
     })
@@ -49,5 +68,9 @@ $(document).ready(function(){
     })
     .mouseout(function(){$("#overlay7").hide();
     });
+
+    //Add a White background.
+    
+    
 
   });
