@@ -17,14 +17,17 @@ body {
 
 .about-us {
     text-align: center;
+    font-size: 15px;
+
 }
 
 .services {
     text-align: center;
     background-image: url(../assets/backgrounds/mac.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
-    margin-bottom: 10px;
+    font-size: 18px;
+    
 }
