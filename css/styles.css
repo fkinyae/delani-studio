@@ -2,8 +2,7 @@
      scroll-behavior: smooth;
  }
 body {
-    font-family: 'Playfair Display', serif;
-
+    font-family: 'Sree Krushnadevaraya', serif;
 }
 
 .home {
@@ -14,4 +13,18 @@ body {
     color: white;
     text-align: center;
     padding-top: 30%;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.services {
+    text-align: center;
+    background-image: url(../assets/backgrounds/mac.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 10px;
 }
