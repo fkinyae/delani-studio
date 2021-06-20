@@ -71,6 +71,16 @@ $(document).ready(function(){
 
     //Add a White background.
     
+    //Collect User input From contact form.
+    $('#myForm').submit(function(event){
+        event.preventDefault();
+        let name = $('#name').val();
+        let email = $('#email').val();
+        let message = $('#message').val();
+        let output = "Hello " + name + " ...We have received your message, thanks alot for reaching out to us."
+        alert(output);
+        $('input').val('').removeAttr('checked').removeAttr('selected');
+        $('#message').val('').removeAttr('checked').removeAttr('selected');
+    });
     
-
   });
