@@ -38,7 +38,7 @@ Built With This site is built with the following languages . HTML CSS Bootstrap 
 
 * Contact-Us - this section allows the customers to send message to the studio admins and engage on a wide range of issues.
 
-* Social Media icons - this is where the user can view the studio on social media .
+* Social Media icons - this is where the user can view the studio on social media.
 
 
 
