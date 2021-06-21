@@ -44,7 +44,7 @@ Built With This site is built with the following languages . HTML CSS Bootstrap 
 
 ## Site Link.
 
-This is the live link on github pages which gives access to this site  [here]()
+This is the live link on github pages which gives access to this site  [here](https://fkinyae.github.io/delani-studio/)
 
 ## Known Bugs
 - Currently there are no known bugs in this project ,contact me incase of any witnessed.
