@@ -22,6 +22,7 @@
         <div class="lower-page"></div>
         <a href="#about-us"><img src="images/mouse_click.png" alt=" mouse_click" id="lower-page"></a> 
         </div>
+        <div class="container">
         <div class="about-us" id="about-us">
             <h3><strong>ABOUT US</strong></h3>
             <p>When You work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, interactive and agile.</p>
@@ -30,12 +31,14 @@
             <p>Then we help translate them into effective and elegant solutions.</p>
 
         </div>
+        </div>
         <div class="services" id="services">
+            <div class="service-text">
             <h3><strong>SERVICES</strong></h3>
             <p>Before We sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision.</p>
             <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
             <p>Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
-            
+            </div>
         </div>
         <div class="lower-page"></div>
         <a href="#portf"><img src="images/mouse_click.png" alt=" mouse_click" id="lower-page"></a> 
@@ -133,26 +136,31 @@
             
             <h3 id="contacts"><strong>CONTACT US</strong></h3>
             
-            <form method="POST" id="myForm">
-                <div class="lower-page"></div>
-        <a href="#contacts"><img src="images/mouse_click.png" alt=" mouse_click" id="lower-page"></a> 
-                <div class="row">
-                    <div class="form-group form-inline">
-                        <input type="text" id="name" class="form-control" placeholder="Name..." size="22" value="" required>
+            <form action="https://moringaschool.us6.list-manage.com/subscribe/post?u=528e32d3af17d5ae0592d2d56&amp;id=946d2203e0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" id="myForm" target="_blank" novalidate>
+               
+            <div class="row">
+                <div class="form-group form-inline">
 
-                        <input type="email" id="email" class="form-control" placeholder="Email..." size="22" value="" required>
+                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Name.." size="26.5" required>
+                
+                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email..." size="27" required>
 
-                    </div>
                 </div>
+
+            </div>
+ 
+            <div class="row">
+            <div class="form-group">
+                <textarea value="" name="MMERGE3" class="form-control" id="message" 
+                rows="8" placeholder="Your Message here..."></textarea>
+            </div>
+            </div>
+
                 <div class="row">
-                    <div class="form-group">
-                        <textarea class="form-control" id="message" placeholder="Your Message here...." rows="8" required></textarea>
-                    </div>
+                    <button id="btn-submit" type="submit" class="btn btn-primary col-md-1">Submit</button>
                 </div>
-                <div class="row">
-                        <button id="btn-submit" type="submit" class="btn btn-primary col-md-1">Submit</button>
-                </div>
-                </form>    
+            </form>
+                
             
         </div>
         <footer>
@@ -191,9 +199,11 @@
                  
             </div>
             <div class="row">
+                <div id="labell">
                 <p class="vibrate-1">DELANI STUDIO</p>
                 <p class="vibrate-1">2021</p>
                 <p class="vibrate-1">Copyright @FKinyae</p>
+                </div>
             </div>
         </footer>
 </body>
