@@ -72,7 +72,7 @@ $(document).ready(function(){
     //Add a White background.
     
     //Collect User input From contact form.
-    $('#myForm').submit(function(event){
+    $('.val').submit(function(event){
         event.preventDefault();
         let name = $('#name').val();
         let email = $('#email').val();
@@ -84,3 +84,5 @@ $(document).ready(function(){
     });
     
   });
+
+  let date = dat
