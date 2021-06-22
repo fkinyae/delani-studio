@@ -69,10 +69,9 @@ $(document).ready(function(){
     .mouseout(function(){$("#overlay7").hide();
     });
 
-    //Add a White background.
     
-    //Collect User input From contact form.
-    $('.val').submit(function(event){
+    //Collect User input From contact form and alert.
+    $('#myForm').submit(function(event){
         event.preventDefault();
         let name = $('#name').val();
         let email = $('#email').val();
@@ -83,6 +82,9 @@ $(document).ready(function(){
         $('#message').val('').removeAttr('checked').removeAttr('selected');
     });
     
+
+
+    
   });
 
-  let date = dat
+  
