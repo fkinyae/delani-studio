@@ -227,13 +227,12 @@ footer {
 
 #lower-page {
     padding-top: 22px;
-    margin-top: -15%;
+    margin-top: -8%;
     margin-left: 50%;
-    
-}
-#lower-page {
     animation: bounce 2s infinite;
+
 }
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
